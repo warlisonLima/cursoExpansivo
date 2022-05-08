@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'indroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #44DA87;
+    
+}
+header {
+    background-image: linear-gradient(to top,#1A5F38,#24834E,#32B56B,#3DD781);
+    color: white;
+    text-align: center;
+
+}
+
+main {
+    background-color: white;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    margin-bottom: 15px;
+}
+
+
+nav {
+    text-align: left;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left:30px;
+}
+nav > a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+#txt {
+    color: green;
+    font-family: 'indroid';
+    font-size: 1.9em;
+}
+
+h2 {
+    background-image: linear-gradient(to right,#9ae9bd,#fff);
+    color: green;
+    font-family: 'indroid'; 
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    
+    
+    
+}
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+img {
+    
+    text-align: center;
+}
+.imgCentral {
+    text-align: center;
+    background-color: #24834f1b;
+    text-indent: 0;
+}
+
+.linkGeral {
+    background-color: #3dd7809f;
+    color: #1A5F38;
+    font-weight: bold;
+    text-decoration: none;
+}
+.linkNav{
+    
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+section#video {
+    background-color: #24834E;
+    margin: auto;
+    margin-top: 0;
+}
+
+section {
+    padding: 15px 15px 20px 15px;
+}
+
+
+#lista {
+    padding: 10px;
+    background-color: #91efbb;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+h3 {
+    color: white;
+    background-color: #32B56B;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    margin: -10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+/* configura o roda pe*/
+footer {
+    margin: 0;
+    padding: 4px;
+    background-color: #1A5F38;
+    
+}
+footer > p { 
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
