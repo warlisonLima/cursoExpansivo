@@ -76,7 +76,7 @@ img {
 }
 picture {
     text-align: center;
-    background-color: #24834f1b;
+   
     text-indent: 0;
     display: block;
     margin: auto;
@@ -132,9 +132,7 @@ h3 {
     padding-bottom: 8px;
 }
 ul li{
-    
     list-style: none;
-
 }
 
 
