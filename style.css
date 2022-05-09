@@ -4,7 +4,7 @@
     src: url('fontes/idroid.otf') format('opentype');
 }
 
-
+/* todo o corpo*/
 body {
     margin: 0;
     padding: 0;
@@ -18,9 +18,34 @@ header {
 
 }
 
+
+
+
+/*_____________________________________*/
+/*        MENU (configurando)          */
+nav {
+    background-color: black;
+    text-align: left;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+nav > a { /*a e filho de nav*/
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left:30px;
+}
+nav > a:hover { /* quando passar o mause por cima*/
+    color: red;
+    text-decoration: underline; 
+}
+
+
+/*corpo principal do html*/
 main {
     background-color: white;
-    display: block;
     width: 80%;
     margin: auto;
     border-bottom-left-radius:15px;
@@ -28,72 +53,45 @@ main {
     margin-bottom: 15px;
 }
 
-
-nav {
-    text-align: left;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-}
-
-nav > a {
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    padding-left:30px;
-}
-nav > a:hover {
-    color: red;
-    text-decoration: underline;
-}
-
-
-#txt {
+#txt { /* h1 titulo principal do main*/
     color: green;
     font-family: 'indroid';
-    font-size: 1.9em;
 }
-
 h2 {
     background-image: linear-gradient(to right,#9ae9bd,#fff);
     color: green;
     font-family: 'indroid'; 
 }
-h3 {
+/*h3 {
     margin: 0;
     padding: 0;
-    font-weight: normal;
+    font-weight: normal; 
     
-    
-    
-}
+}*/
 p {
     text-indent: 30px;
     text-align: justify;
 }
-
-img {
-    
+img {  
     text-align: center;
 }
-.imgCentral {
+picture {
     text-align: center;
     background-color: #24834f1b;
     text-indent: 0;
+    display: block;
+    margin: auto;
 }
-
 .linkGeral {
     background-color: #3dd7809f;
     color: #1A5F38;
     font-weight: bold;
     text-decoration: none;
 }
-.linkNav{
-    
+.linkNav {
     color: white;
     font-weight: bold;
     text-decoration: none;
-
 }
 a:hover {
     color: red;
@@ -102,13 +100,17 @@ a:hover {
 
 
 
-
+/* configurando section do vidio */
 section#video {
     background-color: #24834E;
     margin: auto;
     margin-top: 0;
 }
 
+
+
+
+/* configurando secitio da lista */
 section {
     padding: 15px 15px 20px 15px;
 }
@@ -120,8 +122,6 @@ section {
     border-radius: 20px;
     margin-bottom: 10px;
 }
-
-
 h3 {
     color: white;
     background-color: #32B56B;
@@ -132,6 +132,8 @@ h3 {
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
+
 
 
 /* configura o roda pe*/
