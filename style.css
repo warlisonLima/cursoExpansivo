@@ -24,20 +24,44 @@ header {
 /*_____________________________________*/
 /*        MENU (configurando)          */
 nav {
-    text-align: left;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px;
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    
+}
+nav ul{
+    width: 100%;
 }
 
-nav > a { /*a e filho de nav*/
+nav ul li {
+    display: block;
+    float: left;
+    
+   
+}
+nav ul li {
+    display: block;
+    float: left;
+    width: 15%;
+    
+    
+}
+
+nav  li  > a { /*a e filho de nav*/
+    display: block;
     color: white;
     text-decoration: none;
     text-align: center;
-    padding-left:30px;
+    background-color: #3384FF;
+    width: 100%;
+    
+   
+   
+   
 }
-nav > a:hover { /* quando passar o mause por cima*/
-    color: red;
+nav >ul li a:hover { /* quando passar o mause por cima*/
+    background-color: #FE2B2A;
+   color: white;
     text-decoration: underline; 
 }
 
@@ -132,8 +156,12 @@ h3 {
     padding-bottom: 8px;
 }
 ul li{
+    display: block;
     list-style: none;
 }
+
+
+
 
 
 
@@ -142,7 +170,8 @@ ul li{
 footer {
     margin: 0;
     padding: 4px;
-    background-color: #1A5F38;
+    /*background-color: #1A5F38;*/
+    background-image: linear-gradient(to left,#1A5F38, #3384FF);
     
 }
 footer > p { 
